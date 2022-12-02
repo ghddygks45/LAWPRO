@@ -1,0 +1,92 @@
+#content.main_content .map_sec{padding-top:73px}
+#content.main_content.menu_open .map_sec{padding-top:182px}
+#content.main_content+.footer_wrap{margin-top:0}
+.main_rocation_hide{display:none}
+.map_draggable{width:860px;padding-bottom:13px;touch-action:none;user-select:none}
+.map_draggable .m_cont{width:860px}
+.map_sec{background:url('../images/main/map_bg_m.png') no-repeat center / 100% 100%;overflow:hidden}
+.map_sec>.inner{position:relative}
+.each_cont{position:absolute;top:0}
+.each_cont>ul>li{display:none;position:absolute;min-width:78px;width:auto;padding:0 5px;height:31px;border-radius:12px;line-height:29px;background:#000;font-weight:500;color:#fff;text-align:center}
+.each_cont>ul>li:before{content:'';display:block;position:absolute;top:50%;left:-6px;width:8px;height:10px;margin-top:-6px;background:url('../images/main/bg_arrow_design.png') no-repeat}
+.each_cont>ul>li.active{display:block}
+.each_cont>ul>.eu.active{left:137px;top:74px}
+.each_cont>ul>.Africa.active{left:133px;top:202px}
+.each_cont>ul>.Middle_East.active{left:169px;top:140px}
+.each_cont>ul>li.Asia.active{left:320px;top:179px}
+.each_cont>ul>li.Russia.active{left:339px;top:61px}
+.each_cont>ul>li.North_America.active{left:695px;top:68px}
+.each_cont>ul>li.Latin_Aamerica.active{left:692px;top:273px}
+.each_cont>ul>li.Latin_Aamerica:before{right:-6px;left:auto;transform:rotate(180deg)}
+.each_cont>ul>li.oceania.active{left:410px;top:302px}
+.each_cont>ul>.korea.active{left:381px;top:131px}
+.contry_choice{position:absolute;right:13px;bottom:25px}
+.contry_choice .tit_coch{display:none}
+.contry_choice .txt_coch{display:none}
+.contry_choice .click_coch{width:90px;cursor:pointer}
+.contry_choice .click_coch>img{width:auto;height:auto;max-width:100%}
+.contry_choice .box_coch_wrap{display:none;}
+.contry_choice .box_coch_wrap.active{display:block}
+.mobile .contry_choice .overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.8);z-index:80}
+.contry_choice .box_coch{position:fixed;top:50%;left:50%;background:#f8f8f8;transform:translate(-50%,-50%);width:calc(100% - 30px);margin:0 auto;z-index:90}
+.contry_choice .box_coch>.select_coch{background:url('../images/main/bg_arrow_coch.png') no-repeat right 15px top 50%/10px auto;background-color:#fff;text-indent:15px}
+.contry_choice .box_coch>.select_coch>a{display:block;height:32px;border:solid 1px #ddd;line-height:30px}
+.contry_choice .box_coch>ul{display:none;height:269px;overflow:auto}
+.contry_choice .box_coch>ul>li>a{display:block;padding:0 15px;height:30px;line-height:28px}
+.contry_choice .box_coch.active>ul{display:block}
+.rolling_sec{position:relative;background:#1d92c2;overflow:hidden}
+.rolling_box .rolling_box_inner{display:block;padding:13px 0;width:80%;min-height:115px;margin:0 auto;color:#fff}
+.rolling_sec .slick-arrow{width:10%;height:100%;top:50%;z-index:2}
+.rolling_sec .slick-prev{left:0}
+.rolling_sec .slick-prev:before{content:'';display:block;width:100%;height:100%;background:url('../images/main/btn_slide_prev.png') no-repeat center / 15px 29px;background-color:#1d92c2;opacity:1}
+.rolling_sec .slick-next{right:0;opacity:1}
+.rolling_sec .slick-next:before{content:'';display:block;width:100%;height:100%;background:url('../images/main/btn_slide_next.png') no-repeat center / 15px 29px;background-color:#1d92c2;opacity:1}
+.rolling_box .tit_robo{font-weight:500}
+.rolling_box .tit_robo .big{font-size:16px}
+.rolling_box .subj_robo{display:block;margin-top:5px;text-overflow:ellipsis;white-space:nowrap;max-width:100%;overflow:hidden;vertical-align:top}
+.rolling_box .cont_robo{display:block;margin-top:10px;width:100%;overflow:hidden;text-overflow:ellipsis;white-space:normal;text-align:left;word-wrap:break-word;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;max-height:2.8em;line-height:1.4em;font-weight:400}
+
+@media screen and (min-width:1217px){
+    #content.main_content .map_sec{padding-top:32px}
+    #content.main_content.menu_open .map_sec{padding-top:32px}
+    .inner{width:1200px;margin:0 auto}
+    .map_sec .inner{overflow:hidden}
+    .map_sec{height:481px;background:url('../images/main/map_bg_pc.png') no-repeat center}
+    .map_draggable{width:891px}
+    .each_cont>ul>li{min-width:91px;border-radius:31px}
+    .contry_choice{bottom:160px;right:97px}
+    .contry_choice .tit_coch{display:block;font-size:25px;color:#1d87c2;font-weight:500}
+    .contry_choice .txt_coch{display:block;margin-top:7px;font-size:16px;font-weight:400}
+    .contry_choice .click_coch{width:113px;margin-top:32px}
+    .contry_choice .box_coch{position:absolute;width:auto;top:156px;left:118px;transform:translate(0);font-size:14px;font-weight:400}
+    .contry_choice .box_coch>.select_coch{min-width:156px;background-size:14px 7px;background-position:center right 9px;text-indent:9px}
+    .contry_choice .box_coch>ul{height:179px;padding:8px 0}
+    .contry_choice .box_coch>ul>li>a{padding:0 9px;height:auto;line-height:1.4em}
+    .contry_choice .box_coch>ul>li:not(:last-child){margin-bottom:8px}
+    
+    .each_cont>ul>.eu.active{top:75px}
+    .each_cont>ul>.Africa.active{top:206px}
+    .each_cont>ul>.Middle_East.active{left:175px}
+    .each_cont>ul>li.Asia.active{left:340px;top:170px}
+    .each_cont>ul>li.Russia.active{left:359px;top:60px}
+    .each_cont>ul>li.North_America.active{left:724px;top:63px}
+    .each_cont>ul>li.Latin_Aamerica.active{left:702px;top:278px}
+    .each_cont>ul>li.oceania.active{left:421px;top:306px}
+    .each_cont>ul>.korea.active{left:398px;top:137px}
+
+    .rolling_sec .rolling_slide{width:1200px;margin:0 auto}
+    .rolling_sec .rolling_box{overflow:hidden}
+    .rolling_sec .rolling_box:nth-child(odd)>a{position:relative;padding-right:30px}
+    .rolling_sec .rolling_box:nth-child(odd)>a::after{content:'';position:absolute;display:block;width:1px;height:calc(100% - 104px);top:50%;right:1px;margin:-33px -1px 0 0px;background:rgba(63,63,63,0.3)}
+    .rolling_sec .rolling_box:nth-child(even)>a{padding-left:30px}
+    .rolling_box .rolling_box_inner{padding:25px 0 38px;width:100%;min-height:115px;margin:0 auto;color:#fff}
+    .rolling_sec .slick-arrow{width:30px;height:58px;top:50%;left:50%}
+    .rolling_sec .slick-prev{margin-left:-695px}
+    .rolling_sec .slick-prev:before{background-size:30px 58px}
+    .rolling_sec .slick-next{margin-left:665px}
+    .rolling_sec .slick-next:before{background-size:30px 58px}
+    .rolling_box .tit_robo .big{font-size:20px}
+    .rolling_box .subj_robo{font-size:16px;margin-top:6px}
+    .rolling_box .cont_robo{margin-top:13px;font-size:14px}
+    
+}

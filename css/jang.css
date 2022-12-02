@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.det_cont{overflow:hidden}
+.det_cont>span{margin-right:5px;float:left}
+.det_cont .law_list_link{overflow:hidden}
+.view_top .bm .law_list_link{padding-left:0}
+.view_top .bm .law_list_link>li{margin-right:5px;float:left}
+.view_top .bm .law_list_link>li::after{display:none}
+.bm .law_list_link>li:not(:last-child)::after{content:',';display:inline-block;margin-left:2px;position:static;width:auto;height:auto;background:none}
+.bm .law_list_link>li>a{font-weight:400}
+.bm .law_list_link>li>a:hover{text-decoration:underline}
+
+@media screen and (min-width:1217px),print{
+    
+}
+

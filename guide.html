@@ -1,0 +1,839 @@
+<!DOCTYPE html PUBLIC "-/W3C/DTD Xhtml 1.0 Transitional/EN" "http:/www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http:/www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <title>GUIDE | 법률정보시스템 | 국회도서관</title>
+        <style type="text/css">
+            html, body {margin:0;padding:0}
+            body, td {font:.9em "맑은 고딕",dotum,"돋움",Sans-Serif;color:#6b6b6b}
+            td{font-size:11px}
+            table {border-collapse: collapse;border-spacing: 0}
+			ul {list-style: none}
+            input[type="checkbox"]{margin:0 3px 0;vertical-align:text-bottom}
+            #g_header h1 {min-width:1024px;height:60px;line-height:60px;padding-left:28px;margin-top:0;color:#fff;background:#112e51}
+            #g_body {min-width:1024px;padding:0 30px 50px}
+            #g_footer {padding:30px; text-align:right}
+            .guide_table {width:100%;border-collapse:collapse}
+            .guide_table thead th {background:#f1f1f1;padding:3px;border:solid 1px #dadada}
+            .guide_table tbody td {padding:4px 10px;border:solid 1px #dadada}
+            .guide_table tbody td.filelink .link {text-decoration:none;color:#0177bd}
+            .guide_table tbody td.filelink .link:hover {text-decoration: underline}
+            .guide_table tbody td.filelink .link:focus {font-weight: 600;color: #e43c3c;text-decoration: underline}
+            .guide_table tbody tr td:first-child{text-align:center}
+			.guide_table tbody tr:hover{background-color:#f1f1f1}
+            .guide_table tr.dep01 td {border-top:solid 2px #dadada}
+            .mark {display:inline-block;padding:0 2px;color:#fff}
+            .mark-a {background-color: blue}
+            .mark-b {background-color: #8200ff}
+            .mark-c {background-color: red}
+            .mark-d {background-color: green}
+            .mark-e {background-color: #07c7bc}
+            .mark-f {background-color: #40de40}
+            .mark-g {background-color: #444}
+            .mark-h {background-color: #23a15e}
+            .mark-i {background-color: #0177bd}
+            .mark-remaning-work {background-color: red}
+			.tab-btn{margin-bottom:25px}
+			.tab-btn:after {content: ''; display: block; clear: both}
+			.tab-btn ul{margin:0 0 -1px 0;padding:0}
+			.tab-btn li{float:left;width:170px;border:1px solid #b1b1b1;margin-right:-1px}
+			.tab-btn a{display:block;height:45px;line-height:45px;text-decoration:none;font-size:16px;color:#666;text-align:center}
+			.tab-btn .on,.tab-btn a:hover{background-color:#ddd;color:#222}
+			.tac{text-align:center}
+        </style>
+    </head>
+    <body>
+        <div id="g_header">
+            <h1>국회도서관 | 법률정보시스템</h1>
+        </div>
+        <div id="g_body">
+            <div class="contents">
+                <h3 style="font-size:36px; font-weight:bold;">File List</h3>
+				<div class="tab-btn">
+					<ul>
+						<!-- <li><a href="www/layout.jsp">Layout</a></li>
+						<li><a href="www/style.jsp" target="_blank">Style</a></li> -->
+						<li><a href="guide.html" class="on">국문</a></li>
+						<li><a href="eng_guide.html">영문</a></li>
+					</ul>
+				</div>
+                <form name="work" action="">
+                    <table class="guide_table" id="guide_table">
+                        <colgroup>
+                            <col width="30px" />
+                            <col width="*" />
+                            <col width="*" />
+                            <col width="*" />
+                            <col width="*" />
+                            <col width="*" />
+                            <col width="150px" />
+                            <col width="100px" />
+                            <col width="155px" />
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col">NO</th>
+                                <th scope="col">1depth</th>
+                                <th scope="col">2depth</th>
+                                <th scope="col">3depth</th>
+                                <th scope="col">4depth</th>
+                                <th scope="col">5depth</th>
+                                <th scope="col">link</th>
+                                <th scope="col">상태</th>
+                                <th scope="col">비고</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+							<tr class="dep01">
+                                <td class="no"></td>
+                                <td>메인</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/index.jsp" target="_blank" title="새창" class="link">index.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+							<tr class="dep01">
+                                <td class="no"></td>
+                                <td>국내법률정보</td>
+                                <td>법률쟁점 DB</td>
+                                <td>법률쟁점 DB</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/domestic/domestic0101.jsp" target="_blank" title="새창" class="link">domestic0101.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td>현안입법 알리기</td>
+                                <td>목록</td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/domestic/domestic0102_list.jsp" target="_blank" title="새창" class="link">domestic0102_list.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>상세</td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/domestic/domestic0102_view.jsp" target="_blank" title="새창" class="link">domestic0102_view.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td>의안</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/domestic/domestic02.jsp" target="_blank" title="새창" class="link">domestic02.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td>입법</td>
+                                <td>회의록</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/domestic/domestic0301.jsp" target="_blank" title="새창" class="link">domestic0301.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td>입법예고</td>
+                                <td>목록</td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/domestic/domestic0302_list.jsp" target="_blank" title="새창" class="link">domestic0302_list.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>상세</td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/domestic/domestic0302_view.jsp" target="_blank" title="새창" class="link">domestic0302_view.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td>법령</td>
+                                <td>국내법령</td>
+                                <td>법령</td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/domestic/domestic040101.jsp" target="_blank" title="새창" class="link">domestic040101.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>행정규칙</td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/domestic/domestic040102.jsp" target="_blank" title="새창" class="link">domestic040102.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>현재결정례</td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/domestic/domestic040103.jsp" target="_blank" title="새창" class="link">domestic040103.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>행정심판례</td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/domestic/domestic040104.jsp" target="_blank" title="새창" class="link">domestic040104.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>법령발표</td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/domestic/domestic040105.jsp" target="_blank" title="새창" class="link">domestic040105.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>행정규칙별표</td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/domestic/domestic040106.jsp" target="_blank" title="새창" class="link">domestic040106.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td>영문법령</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/domestic/domestic0402.jsp" target="_blank" title="새창" class="link">domestic0402.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td>판례</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/domestic/domestic05.jsp" target="_blank" title="새창" class="link">domestic05.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td>법률신문뉴스</td>
+                                <td>목록</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/domestic/domestic06_list.jsp" target="_blank" title="새창" class="link">domestic06_list.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td>상세</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/domestic/domestic06_view.jsp" target="_blank" title="새창" class="link">domestic06_view.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td>외국법률정보</td>
+                                <td>외국법률번역 DB</td>
+                                <td>외국법률번역 DB</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/foreign/foreign01.jsp" target="_blank" title="새창" class="link">foreign01.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td>최신외국입법정보</td>
+                                <td>목록</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/foreign/foreign02_list.jsp" target="_blank" title="새창" class="link">foreign02_list.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td>상세</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/foreign/foreign02_view.jsp" target="_blank" title="새창" class="link">foreign02_view.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td>외국입법사례 DB</td>
+                                <td>목록</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/foreign/foreign03_list.jsp" target="_blank" title="새창" class="link">foreign03_list.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td>상세</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/foreign/foreign03_view.jsp" target="_blank" title="새창" class="link">foreign03_view.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td>주요국 최신법령∙판례</td>
+                                <td>목록</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/foreign/foreign04_list.jsp" target="_blank" title="새창" class="link">foreign04_list.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td>상세</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/foreign/foreign04_view.jsp" target="_blank" title="새창" class="link">foreign04_view.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+							<tr class="dep01">
+                                <td class="no"></td>
+                                <td>법률문헌정보</td>
+                                <td>WEB-DB</td>
+                                <td>법령 DB</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/knowledge/knowledge0101.jsp" target="_blank" title="새창" class="link">knowledge0101.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td>의회 DB</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/knowledge/knowledge0102.jsp" target="_blank" title="새창" class="link">knowledge0102.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td>신문 DB</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/knowledge/knowledge0103.jsp" target="_blank" title="새창" class="link">knowledge0103.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td>학술 DB</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/knowledge/knowledge0104.jsp" target="_blank" title="새창" class="link">knowledge0104.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td>신착법률정보</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/knowledge/knowledge02.jsp" target="_blank" title="새창" class="link">knowledge02.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td>법률정보사이트</td>
+                                <td>한국</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/knowledge/knowledge0301.jsp" target="_blank" title="새창" class="link">knowledge0301.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td>미국</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/knowledge/knowledge0302.jsp" target="_blank" title="새창" class="link">knowledge0302.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td>영국</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/knowledge/knowledge0303.jsp" target="_blank" title="새창" class="link">knowledge0303.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td>독일</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/knowledge/knowledge0304.jsp" target="_blank" title="새창" class="link">knowledge0304.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td>프랑스</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/knowledge/knowledge0305.jsp" target="_blank" title="새창" class="link">knowledge0305.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td>일본</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/knowledge/knowledge0306.jsp" target="_blank" title="새창" class="link">knowledge0306.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td>국제법률기구</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/knowledge/knowledge0307.jsp" target="_blank" title="새창" class="link">knowledge0307.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td>기타</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/knowledge/knowledge0308.jsp" target="_blank" title="새창" class="link">knowledge0308.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td>종간된발간물</td>
+                                <td>목록</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/knowledge/knowledge04_list.jsp" target="_blank" title="새창" class="link">knowledge04_list.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td>상세</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/knowledge/knowledge04_view.jsp" target="_blank" title="새창" class="link">knowledge04_view.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+							<tr class="dep01">
+                                <td class="no"></td>
+                                <td>이용자마당</td>
+                                <td>공지사항</td>
+                                <td>목록</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/user/user01_list.jsp" target="_blank" title="새창" class="link">user01_list.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+							<tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td>상세</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/user/user01_view.jsp" target="_blank" title="새창" class="link">user01_view.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td>자주하는질문</td>
+                                <td>목록</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/user/user02_list.jsp" target="_blank" title="새창" class="link">user02_list.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td>상세</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/user/user02_view.jsp" target="_blank" title="새창" class="link">user02_view.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td>법률정보센터 이용안내</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/user/user03.jsp" target="_blank" title="새창" class="link">user03.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td>Open API</td>
+                                <td>Open API란?</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/user/user0401.jsp" target="_blank" title="새창" class="link">user0401.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td>Open API 이용안내</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/user/user0402.jsp" target="_blank" title="새창" class="link">user0402.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td>인증키발급</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/user/user0403.jsp" target="_blank" title="새창" class="link">user0403.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td>인증키발급내역</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/user/user0404.jsp" target="_blank" title="새창" class="link">user0404.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+							<tr class="dep01">
+                                <td class="no"></td>
+                                <td>소개</td>
+                                <td>법률정보도서관소개</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/introduce/introduce01.jsp" target="_blank" title="새창" class="link">introduce01.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td>조직</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/introduce/introduce02.jsp" target="_blank" title="새창" class="link">introduce02.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td>주요사업</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/introduce/introduce03.jsp" target="_blank" title="새창" class="link">introduce03.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td>회원</td>
+                                <td>로그인</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/member/member_login.jsp" target="_blank" title="새창" class="link">member_login.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td>My Library</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/member/member_lib.jsp" target="_blank" title="새창" class="link">member_lib.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td>개인정보수정</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="#n" target="_blank" title="새창" class="link"></a></td>
+								<td class="tac"></td>
+                                <td>외부링크</td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td>회원탈퇴</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="#n" target="_blank" title="새창" class="link"></a></td>
+								<td class="tac"></td>
+                                <td>외부링크</td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td>개인정보처리방침</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="#n" target="_blank" title="새창" class="link"></a></td>
+								<td class="tac"></td>
+                                <td>외부링크</td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td>이메일수집거부</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="#n" target="_blank" title="새창" class="link"></a></td>
+								<td class="tac"></td>
+                                <td>외부링크</td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td>메일링신청</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/member/member_mailling.jsp" target="_blank" title="새창" class="link">member_mailling.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+							<tr class="dep01">
+                                <td class="no"></td>
+                                <td>통합검색</td>
+                                <td>통합검색</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/search/search01_list.jsp" target="_blank" title="새창" class="link">search01_list.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td>법률쟁점 DB_검색결과 더보기</td>
+                                <td>목록</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/search/search02_list.jsp" target="_blank" title="새창" class="link">search02_list.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td>상세</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/search/search02_view.jsp" target="_blank" title="새창" class="link">search02_view.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td>외국법률번역 DB_검색결과 더보기</td>
+                                <td>목록</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/search/search03_list.jsp" target="_blank" title="새창" class="link">search03_list.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td></td>
+                                <td></td>
+                                <td>상세</td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/search/search03_view.jsp" target="_blank" title="새창" class="link">search03_view.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td>error</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/error.jsp" target="_blank" title="새창" class="link">error.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                            <tr class="dep01">
+                                <td class="no"></td>
+                                <td>error2</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="filelink"><a href="/lawpro/www/error02.jsp" target="_blank" title="새창" class="link">error02.jsp</a></td>
+								<td class="tac"><strong style="color:#e43c3c">완료</strong></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <script>
+            //테이블 번호 삽입
+            (function () {
+                let num = 1,
+                    tr = document.querySelectorAll('table tr');
+
+                for(let i=1; i < tr.length; i++) {
+                    tr[i].children[0].innerText = num;
+                    num++;
+                }
+            })();
+
+            // document.write('<div>');
+            // document.write(cwmaMenu[0].menu[0].name, '<br>');
+            // document.write(cwmaMenu[1].menu[0].name);
+            // document.write('</div>');
+
+            // console.dir(cwmaMenu[0].menu);
+        </script>
+    </body>
+</html>
